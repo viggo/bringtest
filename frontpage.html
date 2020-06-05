@@ -1,0 +1,771 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="no">
+
+<head>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KZF54Q');</script>
+    <link rel="stylesheet" href="https://hedwig-staging-anti.herokuapp.com/fonts.css"/>
+    <link rel="stylesheet" href="https://hedwig-staging-anti.herokuapp.com/bring.css"/>
+    <!--<link rel="stylesheet" href="http://localhost:3001/bring.css"/>-->
+    <link rel="stylesheet" href="/_/asset/no.posten.bring:1591260637/css/style-hw.css"/>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="generator" content="Enonic XP"/>
+    <meta name="author" content="Bringnorge"/>
+    <title>Transport av pakker, post og gods</title>
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/_/asset/no.posten.bring:1591260637/img/favicon.ico"/>
+    
+    <meta name="pageId" content="503a813b-4c1f-4983-8618-7ee39f3afb56"/>
+    
+    
+<link rel="shortcut icon" type="image/png" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-64/Bring_logo.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-57/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="60x60" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-60/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="72x72" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-72/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="76x76" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-76/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="114x114" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-114/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="120x120" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-120/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="144x144" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-144/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="152x152" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-152/Bring_logo.png.jpg" />
+<link rel="apple-touch-icon" sizes="180x180" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-180/Bring_logo.png.jpg" />
+
+<link rel="icon" type="image/png" sizes="16x16" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-16/Bring_logo.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-32/Bring_logo.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-96/Bring_logo.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/_/image/c6e58d6b-b171-4413-85a4-624ad4781619:f21c315c9d8af4d002f4d67449d3dfaa489eb4f2/square-192/Bring_logo.png" /><link href="http://test.bring.no/" rel="canonical" />
+
+<meta name="description" content="Velkommen til Bring. Her kan du som bedrift bestille og spore transport  av pakker, gods og post." />
+<meta property="og:title" content="Transport av pakker, post og gods" />
+<meta property="og:description" content="Velkommen til Bring. Her kan du som bedrift bestille og spore transport  av pakker, gods og post." />
+<meta property="og:site_name" content="bring.no" />
+<meta property="og:url" content="http://test.bring.no/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="nb_NO" />
+<meta property="og:image" content="http://test.bring.no/_/image/986394b7-2b88-4310-b2d6-be60c332d65b:e688db2a136b63b450f7984ebb92ab89c1a4718b/block-1200-630/lastebil-pa-bro.jpg?quality=85" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" /></head>
+<body>
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KZF54Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <header class="hw-navbar">
+        <div class="hw-navbar__content">
+
+            <div class="hw-navbar__top">
+                <a href="/" class="hw-navbar__logo">
+                    <svg class="hw-navbar__logo-standard" aria-labelledby="Logo" role="img">
+                        <title id="Logo">Bring</title>
+                        <use xlink:href="#logo-bring"></use>
+                    </svg>
+                    <svg class="hw-navbar__logo-gray" aria-labelledby="Logo" role="img">
+                        <title id="Logo">Til forsiden</title>
+                        <use xlink:href="#logo-bring-gray"></use>
+                    </svg>
+                </a>
+                <a class="hw-navbar__skip-to-content" href="#container">Til hovedinnhold</a>
+
+                <nav class="hw-navbar__menu">
+                    <button class="hw-navbar__search-button" data-hw-toggle-search  aria-label="Søk">
+                        <span class="hw-navbar__search-text">Søk</span><!--
+                     --><i class="hw-navbar__icon hw-navbar__search-icon far fa-search fa-2x"></i>
+
+                    </button>
+                    <button class="hw-navbar__item" data-hw-drawer-trigger="login">
+                        Logg inn<!--
+                        --><i class="hw-navbar__icon far fa-user fa-2x"></i>
+                    </button>
+                    <button class="hw-navbar__menu-button" data-hw-toggle-menu><!--
+                     --><span class="hw-navbar__menu-button-label-menu">Meny</span><!--
+                     --><span class="hw-navbar__menu-button-label-close">Lukk</span><!--
+                     --><span class="fa-stack hw-navbar__menu-button-toggle">
+                            <i class="hw-navbar__bars far fa-bars fa-stack-2x" title="Vis meny"></i>
+                            <i class="hw-navbar__times far fa-times fa-stack-2x" title="Skjul meny"></i>
+                        </span>
+                    </button>
+                    <section class="hw-navbar__drawer" data-hw-menu-drawer>
+    <div class="hw-navbar__drawer-content">
+        <!-- Mobile menu -->
+        <div class="hw-navbar__drawer-mobile">
+            <div class="hw-block hw-block--mb-small">
+                            
+            </div>
+            <ul class="hw-accordion hw-accordion--menu" data-hw-accordion="mobile-menu" data-hw-accordion-allow-multiple>
+                <li class="hw-accordion__item">
+                    <button class="hw-accordion__trigger">
+                        Sende
+                        <div class="hw-accordion__arrow"></div>
+                    </button>
+                    <div class="hw-accordion__contents">
+                        <ul class="hw-accordion__link-items">
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/sende/post">Post</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/sende/pakker">Pakker</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/sende/gods-og-pallelast">Gods</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/sende/bud-og-ekspress/bud">Bud og ekspress</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-accordion__item">
+                    <button class="hw-accordion__trigger">
+                        Motta
+                        <div class="hw-accordion__arrow"></div>
+                    </button>
+                    <div class="hw-accordion__contents">
+                        <ul class="hw-accordion__link-items">
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/motta/spore">Spore en sending</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/motta/adresseendring-og-oppbevaring">Adresseendring og oppbevaring</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/motta/leie-en-postboks">Leie av postboks</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/sende-noe/toll">Import og fortolling</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-accordion__item">
+                    <button class="hw-accordion__trigger">
+                        Rådgivning
+                        <div class="hw-accordion__arrow"></div>
+                    </button>
+                    <div class="hw-accordion__contents">
+                        <ul class="hw-accordion__link-items">
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/sende-noe/klargjoring">Klargjøring av forsendelsen</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/sende-noe/returlosninger">Returløsninger</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/sende-noe/adressetjenester">Adressetjenester</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/sende-noe/integrasjonslosninger">Våre integrasjonsløsninger</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/lagerlosninger">Lagerløsninger</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/netthandel">Netthandel</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/radgivning/kundedialog">Kundedialog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-accordion__item">
+                    <button class="hw-accordion__trigger">
+                        Kundeservice
+                        <div class="hw-accordion__arrow"></div>
+                    </button>
+                    <div class="hw-accordion__contents">
+                        <ul class="hw-accordion__link-items">
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/kundeservice">Kundeservice</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/kundeservice/reklamasjon-og-klager">Reklamasjon og klage</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/kundeservice/faktura-og-betaling">Fakturaspørsmål</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/kundeservice">Driftsmeldinger</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="/kart">Finn åpningstider og postkontor</a>
+                            </li>
+                            <li class="hw-accordion__link-item">
+                                <a class="hw-accordion__link" href="https://cloud.2.bring.com/Web-access-email-no?_ga=2.89429145.321580441.1538640516-1320262212.1522838628" target="_blank">Min profil</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-accordion__item">
+                    <a class="hw-accordion__link" href="/motta/spore">Spore en sending</a>
+                </li>
+                <li class="hw-accordion__item">
+                    <a class="hw-accordion__link" href="https://www.mybring.com" target="_blank">Mybring</a>
+                </li>
+                <li class="hw-accordion__item">
+                    <a class="hw-accordion__link" href="/magasinet">Magasinet</a>
+                </li>
+                <li class="hw-accordion__item">
+                    <a class="hw-accordion__link" href="/kundeservice">Kontakt oss</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Desktop menu -->
+        <div class="hw-navbar__drawer-desktop hc-menu">
+            <div class="hw-flex hw-flex--fourths hw-flex--gutter-large-desktop"><!--
+            --><div>
+                <h2 class="hw-h4">Sende</h2>
+                <div class="hw-block hw-block--full hw-block--pt-small hw-block--pb-small">
+                    <hr class="hw-hr hw-hr--gray-light"/>
+                </div>
+                <ul class="hw-linklist">
+                    <li>
+                        <a href="/sende/post">Post</a>
+                    </li>
+                    <li>
+                        <a href="/sende/pakker">Pakker</a>
+                    </li>
+                    <li>
+                        <a href="/sende/gods-og-pallelast">Gods</a>
+                    </li>
+                    <li>
+                        <a href="/sende/bud-og-ekspress/bud">Bud og ekspress</a>
+                    </li>
+                </ul>
+            </div><div>
+                <h2 class="hw-h4">Motta</h2>
+                <div class="hw-block hw-block--full hw-block--pt-small hw-block--pb-small">
+                    <hr class="hw-hr hw-hr--gray-light"/>
+                </div>
+                <ul class="hw-linklist">
+                    <li>
+                        <a href="/motta/spore">Spore en sending</a>
+                    </li>
+                    <li>
+                        <a href="/motta/adresseendring-og-oppbevaring">Adresseendring og oppbevaring</a>
+                    </li>
+                    <li>
+                        <a href="/motta/leie-en-postboks">Leie av postboks</a>
+                    </li>
+                    <li>
+                        <a href="/radgivning/sende-noe/toll">Import og fortolling</a>
+                    </li>
+                </ul>
+            </div><div>
+                <h2 class="hw-h4">Rådgivning</h2>
+                <div class="hw-block hw-block--full hw-block--pt-small hw-block--pb-small">
+                    <hr class="hw-hr hw-hr--gray-light"/>
+                </div>
+                <ul class="hw-linklist">
+                    <li>
+                        <a href="/radgivning/sende-noe/klargjoring">Klargjøring av forsendelsen</a>
+                    </li>
+                    <li>
+                        <a href="/radgivning/sende-noe/returlosninger">Returløsninger</a>
+                    </li>
+                    <li>
+                        <a href="/radgivning/sende-noe/adressetjenester">Adressetjenester</a>
+                    </li>
+                    <li>
+                        <a href="/radgivning/sende-noe/integrasjonslosninger">Våre integrasjonsløsninger</a>
+                    </li>
+                    <li>
+                        <a href="/radgivning/lagerlosninger">Lagerløsninger</a>
+                    </li>
+                    <li>
+                        <a href="/radgivning/netthandel">Netthandel</a>
+                    </li>
+                    <li>
+                        <a href="/radgivning/kundedialog">Kundedialog</a>
+                    </li>
+                </ul>
+            </div><div>
+                <h2 class="hw-h4">Kundeservice</h2>
+                <div class="hw-block hw-block--full hw-block--pt-small hw-block--pb-small">
+                    <hr class="hw-hr hw-hr--gray-light"/>
+                </div>
+                <ul class="hw-linklist">
+                    <li>
+                        <a href="/kundeservice">Kundeservice</a>
+                    </li>
+                    <li>
+                        <a href="/kundeservice/reklamasjon-og-klager">Reklamasjon og klage</a>
+                    </li>
+                    <li>
+                        <a href="/kundeservice/faktura-og-betaling">Fakturaspørsmål</a>
+                    </li>
+                    <li>
+                        <a href="/kundeservice">Driftsmeldinger</a>
+                    </li>
+                    <li>
+                        <a href="/kart">Finn åpningstider og postkontor</a>
+                    </li>
+                    <li>
+                        <a href="https://cloud.2.bring.com/Web-access-email-no?_ga=2.89429145.321580441.1538640516-1320262212.1522838628" target="_blank">Min profil</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hw-block hw-block--full hw-block--pt-large">
+            <div class="hw-flex hw-flex--gutter-large-desktop">
+                <div class="hw-block">
+                    <a  class="hw-icon-link hw-icon-link--border hw-icon-link--gray" href="/motta/spore">
+                        <svg class="hw-icon site-menu__icon">
+                            <use xlink:href="#sporing"></use>
+                        </svg>
+                        <h4>Spore en sending</h4>
+                    </a>
+                </div>
+                <div class="hw-block">
+                    <a  class="hw-icon-link hw-icon-link--border hw-icon-link--gray" href="https://www.mybring.com" target="_blank">
+                        <svg class="hw-icon site-menu__icon">
+                            <use xlink:href="#leverttilbedrift"></use>
+                        </svg>
+                        <h4>Mybring</h4>
+                    </a>
+                </div>
+                <div class="hw-block">
+                    <a  class="hw-icon-link hw-icon-link--border hw-icon-link--gray" href="/magasinet">
+                        <svg class="hw-icon site-menu__icon">
+                            <use xlink:href="#avis"></use>
+                        </svg>
+                        <h4>Magasinet</h4>
+                    </a>
+                </div>
+                <div class="hw-block">
+                    <a  class="hw-icon-link hw-icon-link--border hw-icon-link--gray" href="/kundeservice">
+                        <svg class="hw-icon site-menu__icon">
+                            <use xlink:href="#kundeservice"></use>
+                        </svg>
+                        <h4>Kontakt oss</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+                </nav>
+            </div>
+            
+            <div class="hw-drawer" data-hw-drawer="login">
+                <div class="hw-drawer__overlay hw-animate hw-animate--fade-in-overlay" data-hw-drawer-trigger="login"></div>
+                <div data-hw-drawer-content class="hw-drawer__content">
+                    <div class="hw-drawer__header">
+                        <div class="hw-drawer__close">
+                            <button class="hw-drawer__close-button" data-hw-drawer-trigger="login">
+                                <i class="fal fa-times fa-3x" title="Lukk"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hw-drawer__body">
+                        <div class="hw-block hw-block--mb hw-text-center">
+                            <i class="far fa-user fa-7x hw-color-gray-light"></i>
+                        </div>
+                        <div class="hw-block hw-block--mb">
+                            <h3 class="hw-text-center">Hvor vil du logge inn?</h3>
+                        </div>
+                        <hr class="hw-hr hw-hr--centered"/>
+                        <div class="hw-block hw-block--mt-large">
+                            <a class="hw-button hw-button--large hw-button--full hw-button--primary" href="https://www.mybring.com">Mybring</a><a class="hw-button hw-button--large hw-button--full hw-button--secondary" href="https://eordre.posten.no/OA_HTML/ibeCCtpSctDspRte.jsp?section=10021&amp;sitex=10020:22372:N">Min post</a><a class="hw-button hw-button--large hw-button--full hw-button--secondary" href="https://eordre.posten.no/OA_HTML/ibeCCtpSctDspRte.jsp?minisite=10042">Frimerkebutikken</a><a class="hw-button hw-button--large hw-button--full hw-button--secondary" href="https://www.digipost.no/app/#/virksomhet">Digipost</a><a class="hw-button hw-button--large hw-button--full hw-button--secondary" href="http://amphora.bring.com/">MINe - Internasjonalt gods</a><a class="hw-button hw-button--large hw-button--full hw-button--secondary" href="">MINe - Offshore &amp; Energy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hw-navbar__overlay" data-hw-navbar-overlay></div>
+            <section class="hw-navbar__search">
+                <div class="hw-search hw-search--large" data-hw-search>
+                    <div class="hw-search__inner">
+                        <form method="get" action="/s%C3%B8k" id="react-navbar-search-form" role="search" aria-label="nettside innhold">
+                            <input name="q" data-hw-search-input class="hw-search__input" type="text" aria-label="Søk" placeholder="Søk" autocomplete="off" />
+                        </form>
+                        <i class="far fa-search hw-search__icon"></i>
+                        <button class="hw-search__button-inside" data-hw-search-reset><i class="fas fa-times-circle"></i></button>
+                    </div>
+                    <ul class="hw-search__suggestions" id="react-suggestions" data-defaults="[{&quot;label&quot;:&quot;Sporing&quot;,&quot;link&quot;:&quot;https://sporing.bring.no/index.html&quot;,&quot;newTab&quot;:true},{&quot;label&quot;:&quot;Sende pakker&quot;,&quot;link&quot;:&quot;/sende/pakker&quot;,&quot;newTab&quot;:false},{&quot;label&quot;:&quot;Sende brev&quot;,&quot;link&quot;:&quot;/sende/post&quot;,&quot;newTab&quot;:false}]" data-localization="{&quot;mediaDocument&quot;:&quot;Dokument / PDF&quot;,&quot;content&quot;:&quot;Innhold&quot;,&quot;unit&quot;:&quot;Postkontor&quot;,&quot;postalCode&quot;:&quot;Postnummer&quot;,&quot;address&quot;:&quot;Adresse&quot;}" data-serviceurl="/_/service/no.posten.bring"></ul>
+                </div>
+                <button class="hw-navbar__close-search" data-hw-navbar-close-search>
+                    <i class="far fa-times fa-2x"></i>
+                </button>
+            </section>
+        </div>
+    </header>
+
+    <main id="container">
+        
+            <div data-portal-region="my-region-1">
+                
+                    <section data-portal-component-type="part" class="hw-banner" data-hw-banner="banner_0">
+  <button class="hw-banner__trigger">
+    <strong class="hw-banner__text">Koronavirus og pandemi - Vi gjør alt vi kan for å opprettholde våre leveranser</strong>
+    <i class="fas fa-chevron-down" data-fa-transform="down-2" title="Les mer"></i>
+  </button>
+  
+  <div class="hw-banner__contents">
+    <button class="hw-banner__trigger-close">
+      <i class="fas fa-lg fa-chevron-up" title="Close banner information"></i>
+    </button>
+    <div class="hw-banner__title">Koronavirus og pandemi - Vi gjør alt vi kan for å opprettholde våre leveranser</div>
+    
+    <div class="hw-banner__subtitle">Den meget alvorlige situasjonen som nå har rammet Norge og resten av verden, setter alle deler av samfunnet på prøve. Posten og Bring gjør alt vi kan for å opprettholde avtalte leveranser og tjenester.</div>
+    <a href="/kundeservice/koronainformasjon" class="hw-banner__read-more-link">Les mer om hvordan vi håndterer koronasituasjonen her</a>
+  </div>
+</section>  
+                
+                    <div data-portal-component-type="part" class="hc-hero-component">
+    <div class="hw-hero" data-hw-hero data-hw-hero-images="{&quot;large&quot;:&quot;https://www.bring.no/_/image/bcf13fff-fd3c-4e15-8935-a8af4de57522:efd0678b0dfb26abd91fded5d27b1f3969510ee0/width-2000/Bring%20medarbeider%20forside.jpg.jpeg?quality=90&quot;,&quot;small&quot;:&quot;https://www.bring.no/_/image/d6414173-b8ff-4680-9200-0837be2f5218:e1cc671d7b0b80ee0bdf0d78fc089f5e7b3fcdd7/width-940/Forsidebilde%20mobil.jpg.jpeg?quality=90&quot;}">
+        <style>@media only screen and (min-width: 940px), only screen and (min-device-width: 940px) { .hw-hero__image--focalpoint { background-position : 50% 50%} } @media screen and (max-width: 940px), screen and (max-device-width: 940px) { .hw-hero__image--focalpoint { background-position : 50% 50%;} }</style>
+        <div class="hw-hero__image hw-hero__image--focalpoint" >
+            <div class="hw-hero__overlay hw-background-color-opaque-black-desktop ">
+                <div class="hw-container hw-container--pt hw-container--pb">
+                    <div class="hw-hero__content hc-hero__content hw-hero__content--middle hw-hero__content--left">
+                        <div class="hw-block hw-block--mb hero-frontpage-heading-width">
+                            <h1 class="hw-color-white">Logistikk for din bedrift</h1>
+                        </div>
+                        <div class="hw-block hw-block--mb-small hw-desktop-only">
+                            <h2 class="hw-color-white hw-h4">Spor pakker, brev og gods</h2>
+                        </div>
+                        <form action="https://sporing.bring.no/sporing.html" role="search" aria-label="sporing">
+                            <div class="hw-trace" data-hw-trace data-hw-trace-placeholders="[&quot;Skriv inn sporingsnummer&quot;]">
+                                <div class="hw-trace__inner">
+                                    <input class="hw-trace__input" name="q" aria-label="Skriv inn sporingsnummer" data-hw-trace-input type="text" />
+                                    <span class="hw-trace__placeholder" data-hw-trace-placeholder></span>
+                                    <button type="button" aria-label="Nullstill" class="hw-trace__button-inside" data-hw-trace-reset><i class="fas fa-times-circle"></i></button>
+                                </div>
+                                <!-- Button fo desktop -->
+                                <input type="submit" class="hw-desktop-only hw-button hw-trace__button hw-button--picture-dark" value="Spor"/>
+                                <!-- Button for mobile -->
+                                <input type="submit" class="hw-mobile-only hw-button hw-trace__button hw-button--primary" value="Spor"/>
+                            </div>
+                        </form>
+                        <div class="hw-block hw-block--pt-small hw-desktop-only">
+                           <div class="hw-wysiwyg hw-text-light hw-color-white hc-hero-sub-section"></div>
+                        </div>
+                        <div class="hw-block hw-block--pt-small hw-mobile-only">
+                            <div  class="hw-wysiwyg hw-text-light hw-color-white hc-hero-sub-section"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                
+                    
+<div data-portal-component-type="layout" class="hw-container hc-layout layout-container-wide  hw-container--mb  null">
+ 	<div class="hw-block   null" data-portal-region="leftRegion">
+		
+			<div data-portal-component-type="part" class="hw-block hw-block--mb">
+	<div class="hw-flex hw-flex--thirds">
+		<div class="hw-block hw-background-color-gray-lightest">
+			<a class="hw-icon-link" href="/sende">
+				<svg class="hw-icon">
+					<use xlink:href="#godstransport"></use>
+				</svg>
+				<h4>Sende</h4>
+				<div class="hw-block hw-block--pt-smallest">
+					<p class="hw-h4 hw-text-light">Finn riktig tjeneste og bestill</p>
+				</div>
+			</a>
+		</div>
+		<div class="hw-block hw-background-color-gray-lightest">
+			<a class="hw-icon-link" href="/motta">
+				<svg class="hw-icon">
+					<use xlink:href="#pakke"></use>
+				</svg>
+				<h4>Motta</h4>
+				<div class="hw-block hw-block--pt-smallest">
+					<p class="hw-h4 hw-text-light">Adresse- og mottakertjenester</p>
+				</div>
+			</a>
+		</div>
+		<div class="hw-block hw-background-color-gray-lightest">
+			<a class="hw-icon-link" href="/radgivning">
+				<svg class="hw-icon">
+					<use xlink:href="#henteipostkassen"></use>
+				</svg>
+				<h4>Vite mer om</h4>
+				<div class="hw-block hw-block--pt-smallest">
+					<p class="hw-h4 hw-text-light">Netthandel, lager, DM m.m.</p>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+		
+	</div>
+
+</div>
+
+
+                
+                    <div data-portal-component-type="part" class="hw-container">
+    <div class="hw-block hw-block--mb hw-block--mb-larger-mobile hw-block--mb-even-larger-desktop">
+        <div class="hw-flex hw-flex--gutter-larger-mobile hw-flex--gutter-larger-desktop hw-flex--variable-height">
+            <a href="/radgivning/netthandel/slik-bestiller-du-pakker" class="hw-entrance-box" target="_blank">
+                <img class="hw-entrance-box__media" alt="Kom i gang med å sende varer" src="https://www.bring.no/_/image/e1019925-0590-4c8a-b13c-f30d0b851861:6afa0bd6dc3c3c80c1f75976241ff85587909903/block-600-400/Bud_bring%20copy.jpg.jpeg?quality=90"></img>
+                <div class="hw-entrance-box__body">
+                    <div class="hw-block hw-block--mb-smallest">
+                        <p class="hw-entrance-box__label hw-text-uppercase">Kom i gang med å sende varene dine</p>
+                    </div>
+                    <div class="hw-entrance-box__text">Har du behov for å sende varer hjem til dine kunder, viser vår enkle guide hvordan du raskt kan komme i gang.</div>
+                </div>
+            </a><a href="/radgivning/sende-noe/pakkeboks" class="hw-entrance-box">
+                <img class="hw-entrance-box__media" src="https://www.bring.no/_/image/18a067e4-a495-4d12-8142-88ef79a536d2:5d11ee239867918ac9cf98c5a274dfb9ee44bc92/block-600-400/Pakkeboks84-2.jpg.jpeg?quality=90"></img>
+                <div class="hw-entrance-box__body">
+                    <div class="hw-block hw-block--mb-smallest">
+                        <p class="hw-entrance-box__label hw-text-uppercase">Pakkeboks</p>
+                    </div>
+                    <div class="hw-entrance-box__text">La dine kunder få hente ut sine pakker når de vil, døgnet rundt fra våre nye selvbetjente pakkeautomater.</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+                
+            </div>
+        
+        
+    </main>
+    <button class="bai-open-chat-btn hw-button hw-button--chat-fixed" aria-label="Åpne chat">
+        <i class="fas fa-2x fa-comments-alt"></i>
+    </button>
+
+    <section>
+	<footer class="hw-footer">
+		<div class="hw-container">
+			<div class="hw-block">
+				<div class="hw-footer__desktop">
+					<div class="hw-block">
+						<div class="hw-grid"><!--
+					 	 --><div class="hw-grid__item hw-one-quarter">
+								<h4>Kundeservice</h4>
+								<div class="hw-block">
+									<ul class="hw-linklist">
+										<li>
+											<a href="/kundeservice">Kundeservice</a>
+										</li>
+										<li>
+											<a href="/kundeservice/kontakt-oss" target="_blank">Kontakt oss</a>
+										</li>
+									</ul>
+								</div>
+							</div><div class="hw-grid__item hw-one-quarter">
+								<h4>Om Bring</h4>
+								<div class="hw-block">
+									<ul class="hw-linklist">
+										<li>
+											<a href="/tjenester">Våre tjenester</a>
+										</li>
+										<li>
+											<a href="/priser">Priser</a>
+										</li>
+										<li>
+											<a href="/vilkar">Vilkår</a>
+										</li>
+										<li>
+											<a href="/jobb">Jobb og karriere</a>
+										</li>
+										<li>
+											<a href="/magasinet/innovasjon-og-barekraft/ambisiose-miljomal-sikter-mot-nullutslipp">Miljø</a>
+										</li>
+									</ul>
+								</div>
+							</div><div class="hw-grid__item hw-one-quarter">
+								<h4>Søk etter</h4>
+								<div class="hw-block">
+									<ul class="hw-linklist">
+										<li>
+											<a href="https://sporing.bring.no/sporing/" target="_blank">Sporing av pakker og gods</a>
+										</li>
+										<li>
+											<a href="/kart">Åpningstider på Posten</a>
+										</li>
+										<li>
+											<a href="http://adressesok.bring.no/?_ga=2.230266268.1215631922.1553434583-1320262212.1522838628">Navn og adresser</a>
+										</li>
+									</ul>
+								</div>
+							</div><!--
+						 --><div class="hw-grid__item hw-one-quarter">
+								<div class="hw-block hw-block--mb-smallest">
+									<a class="hw-button hw-button--full hw-button--outline" href="/kontakt">Be om bedriftstilbud</a>
+								</div>
+								
+									<div class="hw-block hw-block--mb-smallest">
+										<a class="hw-button hw-button--full hw-button--outline" href="https://www.bring.no/english" lang="en">
+											English site
+										</a>
+									</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="hw-block hw-block--mt-larger">
+						<div class="hw-grid"><!--
+						 --><div class="hw-grid__item hw-one-quarter">
+								<div class="hw-block">
+									<div class="hw-footer__logo">
+										<a href="/" class="hw-footer__logo-link">
+											<svg class="hw-footer__logo-link-standard">
+												<use xlink:href="#logo-bring"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div><!--
+						 --><div class="hw-grid__item hw-one-quarter">
+							</div><!--
+						 --><div class="hw-grid__item hw-one-half">
+								
+							</div>
+						</div>
+					</div>
+					<div class="hw-hr hw-block--mt-smallest"></div>
+					<div class="hw-block hw-block--mt">
+						<span class="hw-copyright">Posten Norge AS</span>
+						
+							<a href="/privacy-policy" class="hw-link">Personvern og sikkerhet</a> 
+						
+							<a href="/bruk-av-cookies" class="hw-link">Cookies</a> 
+						
+					</div>
+				</div>
+			</div>
+			<div class="hw-footer__mobile">
+				<nav class="hw-footer__navigation">
+					<div class="hw-block hw-block--mb-smallest">
+						<a class="hw-button hw-button--full hw-button--outline" href="https://www.bring.no/english" lang="en">
+							English site
+						</a>
+					</div>
+					<div class="hw-block hw-block--mt">
+						<div class="hw-block hw-block--mb-smallest"></div>
+					</div>
+					<div class="hw-block hw-block--mt-larger">
+						<ul class="hw-accordion hw-accordion--menu" data-hw-accordion="mobile-menu" data-hw-accordion-allow-multiple>
+							<li class="hw-accordion__item">
+								<button class="hw-accordion__trigger">
+									Kundeservice
+									<div class="hw-accordion__arrow"></div>
+								</button>
+								<div class="hw-accordion__contents">
+									<ul class="hw-accordion__link-items">
+										<li class="hw-accordion__link-item">
+											<a href="/kundeservice" class="hw-accordion__link">Kundeservice</a> 
+										</li>
+										<li class="hw-accordion__link-item">
+											<a href="/kundeservice/kontakt-oss" class="hw-accordion__link" target="_blank">Kontakt oss</a> 
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="hw-accordion__item">
+								<button class="hw-accordion__trigger">
+									Om Bring
+									<div class="hw-accordion__arrow"></div>
+								</button>
+								<div class="hw-accordion__contents">
+									<ul class="hw-accordion__link-items">
+										<li class="hw-accordion__link-item">
+											<a href="/tjenester" class="hw-accordion__link">Våre tjenester</a> 
+										</li>
+										<li class="hw-accordion__link-item">
+											<a href="/priser" class="hw-accordion__link">Priser</a> 
+										</li>
+										<li class="hw-accordion__link-item">
+											<a href="/vilkar" class="hw-accordion__link">Vilkår</a> 
+										</li>
+										<li class="hw-accordion__link-item">
+											<a href="/jobb" class="hw-accordion__link">Jobb og karriere</a> 
+										</li>
+										<li class="hw-accordion__link-item">
+											<a href="/magasinet/innovasjon-og-barekraft/ambisiose-miljomal-sikter-mot-nullutslipp" class="hw-accordion__link">Miljø</a> 
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="hw-accordion__item">
+								<button class="hw-accordion__trigger">
+									Søk etter
+									<div class="hw-accordion__arrow"></div>
+								</button>
+								<div class="hw-accordion__contents">
+									<ul class="hw-accordion__link-items">
+										<li class="hw-accordion__link-item">
+											<a href="https://sporing.bring.no/sporing/" class="hw-accordion__link" target="_blank">Sporing av pakker og gods</a> 
+										</li>
+										<li class="hw-accordion__link-item">
+											<a href="/kart" class="hw-accordion__link">Åpningstider på Posten</a> 
+										</li>
+										<li class="hw-accordion__link-item">
+											<a href="http://adressesok.bring.no/?_ga=2.230266268.1215631922.1553434583-1320262212.1522838628" class="hw-accordion__link">Navn og adresser</a> 
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="hw-block hw-block--mb hw-block--mt-larger">
+						<div class="hw-footer__logo">
+							<a href="/" class="hw-footer__logo-link">
+								<svg class="hw-footer__logo-link-standard">
+									<use xlink:href="#logo-bring"></use>
+								</svg>
+							</a>
+						</div>
+						
+						<div class="hw-hr hw-block--mt-smallest"></div>
+						<div class="hw-block hw-block--mt">
+							<span class="hw-copyright">Posten Norge AS</span>
+						</div>
+						<div class="hw-block hw-block--mt">
+							
+								<a href="/privacy-policy" class="hw-link">Personvern og sikkerhet</a>
+							
+								<a href="/bruk-av-cookies" class="hw-link">Cookies</a>
+							
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="hw-footer__shared"></div>
+		</div>
+	</footer>
+</section>
+
+    <script type="application/javascript" src="/_/asset/no.posten.bring:1591260637/js/bundle.js" id="search-reactjs"></script>
+    <script type="application/javascript" src="https://hedwig-staging-anti.herokuapp.com/icons.min.js" id="hw-icons"></script>
+    <script type="application/javascript" src="https://hedwig-staging-anti.herokuapp.com/main.js"></script>
+    <!--<script type="application/javascript" src="http://localhost:3001/main.js"></script>-->
+    <script type="application/javascript" src="/_/asset/no.posten.bring:1591260637/js/script.js"></script>
+    <script src="https://posten.boost.ai/chatPanel/chatPanel.js"></script>
+    <script src="/_/asset/no.posten.bring:1591260637/js/chatbot/chatbot.js"></script>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+    (function() {
+    var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+    sz.src = '//siteimproveanalytics.com/js/siteanalyze_6015663.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+    })();
+    /*]]>*/
+    </script>
+</body>
+
